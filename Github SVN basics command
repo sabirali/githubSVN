@@ -1,0 +1,38 @@
+Basic and useful command for github SVN
+
+First create repo on github
+git clone wiht url
+git status
+git add .
+git commit -m "test repo"
+git push Askcredential OR personal access tocket create in profile->setting->developer setting->
+OR 
+git push origin BRANCHNAME
+https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+For branch command :
+git branch - show branch 
+git fetch - if not show branch
+git checkout BRANCHNAME - switch branch
+git merge BRANCHwheretoget code
+git push origin BRANCH NAME - new change push to branch
+
+For Delete Branch local and remote
+git branch -d <branchname> - for local
+git branch -D <branchname> - forcefully delete local
+git push origin --delete <branchname> - remote delete
+
+
+git branch - show current branch
+git fetch --all - Getbranch
+git checkout Branchname switch to other branch
+git reset - to rollback added files
+
+Merge and resolve conflict
+git checkout master
+git pull
+git checkout your-branch
+git merge master
+
+git merge origin/BRANCHNAME --- 
+git diff --check  — check merge conflict
