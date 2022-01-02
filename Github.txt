@@ -1,0 +1,126 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-09-16T17:16:25+05:30
+
+====== Github ======
+Created Thursday 16 September 2021
+
+**For Web Git Account for Website :**
+username : infonarjis
+Email : info@narjisinfotech.com
+password : GTinfo@sijran@2021
+**Personal access tocket :** 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
+
+
+**For Web Git Account for Application :**
+username : ahesnarjis
+Email : ahesan@narjisinfotech.com
+password : GTahes@appsijran@2021
+**Personal access tocket : **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
+
+
+**ProjectWeb :**
+Folder name : mega
+URL : https://github.com/infonarjis/mega.git
+**Personal access tocket :** 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
+
+Folder name : ultimate
+URL : https://github.com/infonarjis/ultimate.git
+**Personal access tocket :** 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
+
+Folder name : mega3.0
+URL : https://github.com/infonarjis/mega3.0.git
+**Personal access tocket :** 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
+
+
+**Installation steps:**
+https://gitforwindows.org/ - install git 
+
+Clone From specific branch :
+git clone -b staging https://github.com/infonarjis/mega.git
+
+First create repo on github
+git clone **wiht url**
+git status
+git add .
+git commit -m "test repo"
+git push Askcredential OR personal access tocket create in profile->setting->developer setting->
+OR 
+git push origin BRANCHNAME
+https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+**For branch command :**
+git branch - show branch 
+git fetch - if not show branch
+git checkout BRANCHNAME - switch branch
+git merge BRANCHwheretoget code
+git push origin BRANCH NAME - new change push to branch
+
+**Get pull from master repo :**
+git pull origin staging
+
+**For Delete Branch local and remote**
+git branch -d <branchname> - for local
+git branch -D <branchname> - forcefully delete local
+git push origin --delete <branchname> - remote delete
+
+
+git branch - show current branch
+git fetch --all - Getbranch
+git checkout Branchname switch to other branch
+git reset - to rollback added files
+
+**Merge and resolve conflict**
+git checkout master
+git pull 
+git checkout your-branch
+git merge master
+
+git merge origin/BRANCHNAME --- 
+git diff --check  — check merge conflict
+**URL :** https://youtu.be/jhtbhSpV5YA 
+
+**Save local work in stash**
+https://www.codeblocq.com/2016/02/Stash-your-changes-before-switching-branch/
+git stash save "comment"
+git stash pop
+
+**Push to cpanel :**
+git remote add origin ssh://infotechin@narjisinfotech.in/home3/infotechin/mega2.1
+git push -u origin staging
+
+
+**---- Basic Command -------**
+…or create a new repository on the command line
+echo "# infonarjis" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/infonarjis/infonarjis.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/infonarjis/infonarjis.git
+git branch -M main
+git push -u origin main
+
+
+****************************** Automatic Deploy code in Github ********************
+https://ridbay.medium.com/how-to-deploy-private-github-repositories-to-cpanel-ef5493df8d9f - auto deploy with tested byme 
+Pull and Push :
+https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-how-to-set-up-deployment/
+
+**mega2.1 :**
+database : infotech_mega2.1
+user : infotech_mega21
+pwd : OFST,**$s,-g
+
+**Ultimate1.2**  FTp :
+FTP Username: ultimate1.2@narjisinfotech.in
+FTP server: ftp.narjisinfotech.in
+FTP & explicit FTPS port:  21
+psw: Ts05AtC&Ui25
+
+
